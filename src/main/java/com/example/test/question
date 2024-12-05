@@ -1,0 +1,4 @@
+Question{text='1+1?'/ raspuns1='2'/ raspuns2='1'/ raspuns3='3'/ raspunsCorect='2'/ punctaj=mica/ id=1007} 
+Question{text='Am un taur?'/ raspuns1='da'/ raspuns2='nu'/ raspuns3='poate'/ raspunsCorect='nu'/ punctaj=mica/ id=1006} 
+Question{text='Unde suntem?'/ raspuns1='lab'/ raspuns2='examen'/ raspuns3='pePc'/ raspunsCorect='lab'/ punctaj=mediu/ id=1009} 
+Question{text='a?'/ raspuns1='a'/ raspuns2='b'/ raspuns3='c'/ raspunsCorect='a'/ punctaj=greu/ id=1004} 

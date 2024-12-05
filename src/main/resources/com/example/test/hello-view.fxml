@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.controllers.HelloController">
+   <children>
+      <BorderPane fx:id="borderPane" prefHeight="615.0" prefWidth="844.0">
+         <left>
+            <VBox alignment="CENTER" prefHeight="613.0" prefWidth="152.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handlePacientButton" prefHeight="76.0" prefWidth="143.0" text="List" />
+                  <Button id="pacientButton" fx:id="pacientButton" alignment="CENTER" mnemonicParsing="false" onAction="#handleAppointmentButton" prefHeight="80.0" prefWidth="143.0" text="AddPage" />
+                  <Button mnemonicParsing="false" onAction="#handleRaportButton" prefHeight="80.0" prefWidth="143.0" text="FilterPage" />
+<!--                  <Button mnemonicParsing="false" onAction="#handleSettingsButton" prefHeight="79.0" prefWidth="142.0" text="Settings" />-->
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
